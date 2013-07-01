@@ -4,7 +4,7 @@ These are really, really simple little utilities. I'm not even sure if they're u
 
 ## Installing
 
-You need build-essential installed on a Debian-based system. Basically you need a C compiler, that's all.
+Basically you need a C compiler, that's all. Probably overkill, but on Debian I just installed the *build-essential* package and that did the trick.
 
     gcc -o filediff filediff.c
     gcc -o stringdiff stringdiff.c
