@@ -29,6 +29,7 @@ int main(int argc, char *argv[]) {
 	char *s_one = argv[1];
 	char *s_two = argv[2];
 	int diff = levenshtein(s_one, s_two);
-	printf("Difference between %s and %s: %i \n", s_one, s_two, diff);
+	//printf("Difference between %s and %s: %i \n", s_one, s_two, diff);
+	printf("%i\n", diff);
 	return 0;
 }
